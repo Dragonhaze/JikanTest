@@ -35,6 +35,10 @@ extension AnimelistViewController: UITableViewDataSource, UITableViewDelegate {
         return 5
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = animeList.dequeueReusableCell(withIdentifier: "listCell")

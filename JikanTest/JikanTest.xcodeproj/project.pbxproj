@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA7EB97E7EA61E2B17EBAA27 /* Pods_JikanTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B9B46CBB47CC5ED0FD628A /* Pods_JikanTest.framework */; };
 		F68498FB23D631FD00EE1518 /* AnimelistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68498FA23D631FD00EE1518 /* AnimelistViewController.swift */; };
+		F68498FD23D6449300EE1518 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68498FC23D6449300EE1518 /* Anime.swift */; };
 		F68740E923D625190016C438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68740E823D625190016C438 /* AppDelegate.swift */; };
 		F68740EB23D625190016C438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68740EA23D625190016C438 /* ViewController.swift */; };
 		F68740EE23D625190016C438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68740EC23D625190016C438 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		37893CC3BC7D75C22DC380CA /* Pods-JikanTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JikanTest.debug.xcconfig"; path = "Target Support Files/Pods-JikanTest/Pods-JikanTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D49DABB27B3B61F168949406 /* Pods-JikanTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JikanTest.release.xcconfig"; path = "Target Support Files/Pods-JikanTest/Pods-JikanTest.release.xcconfig"; sourceTree = "<group>"; };
 		F68498FA23D631FD00EE1518 /* AnimelistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimelistViewController.swift; sourceTree = "<group>"; };
+		F68498FC23D6449300EE1518 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 		F68740E523D625190016C438 /* JikanTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JikanTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68740E823D625190016C438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F68740EA23D625190016C438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				F68740F123D6251B0016C438 /* LaunchScreen.storyboard */,
 				F68740F423D6251B0016C438 /* Info.plist */,
 				F68498FA23D631FD00EE1518 /* AnimelistViewController.swift */,
+				F68498FC23D6449300EE1518 /* Anime.swift */,
 			);
 			path = JikanTest;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68498FD23D6449300EE1518 /* Anime.swift in Sources */,
 				F68498FB23D631FD00EE1518 /* AnimelistViewController.swift in Sources */,
 				F68740EB23D625190016C438 /* ViewController.swift in Sources */,
 				F68740E923D625190016C438 /* AppDelegate.swift in Sources */,
